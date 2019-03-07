@@ -1,0 +1,81 @@
+body {
+    background-image: url("../Images/spiration-dark.png");
+}
+
+header {
+    background: white;
+    width: 960px;
+    padding: 20px;
+    border-radius: 5px;
+}
+h2 {
+    color: white;
+    background: blue;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    animation-name: colorful;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorful {
+    0% {
+      background-color: #122775;
+    }
+    25% {
+      background-color: #112057;
+    }
+    50%{
+      background-color: #0B1544;
+    }
+    100% {
+      background-color: black;
+    }
+  }
+.container {
+    background: white;
+    width: 960px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#body-image {
+    border-radius: 5px;
+    outline: 5px solid blue;
+}
+.form-label {
+    background: #0B1544;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#form-submit {
+    background: #112057;
+}
+#form-submit:hover {
+    background: white;
+    color: #122775;
+}
+.portfolio-name {
+    color: white;
+    background: #122775;
+    display: inline;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+#footer {
+    flex-shrink: 0;
+    color: #E7E4EF;
+    text-align: center;
+    background-color: #0B1544;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    margin-top: -10px;
+    border-top: 8px solid #122775;
+    width: 960px;
+  }
