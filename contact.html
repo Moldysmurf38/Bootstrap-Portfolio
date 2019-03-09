@@ -9,14 +9,17 @@
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    <link
+        href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAABXIBEA7+TnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEREQAAAAAAEREREAAAAAARAAERAAAAABEAABEQAAAAEQAAARAAAAARAAABEAAAABEAAAEQAAAAEQAAARAAAAARAAAREAAAABEAAREAAAAAEREREAAAAAAREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        rel="icon" type="image/x-icon" />
     <script src="main.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-navbar">
         <a class="navbar-brand" href="#">David</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="Navbar-toggle">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,34 +36,35 @@
             </ul>
         </div>
     </nav>
-
-    <header>
+    <br>
+    <header class="col-md-12 col-sm-12" id="header">
         <h2>Contact Me</h2>
     </header>
     <br>
-    <div class="container">
-    <div class="row">
-    <div class="col-md-12">
-            <form>
+    <div class="container col-md-12 col-sm-12">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <form>
                     <div class="form-group">
                         <label class="form-label">Your Name</label>
                         <input type="text" class="form-control" placeholder="Enter Name">
-                      <label class="form-label">Email address</label>
-                      <input type="email" class="form-control" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
                     </div>
                     <div class="form-group">
-                            <label class="form-label">Message</label>
-                            <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
-                          </div>
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                    </div>
                     <button type="submit" class="btn btn-primary" id="form-submit">Submit</button>
-                  </form>
+                </form>
 
 
+            </div>
+        </div>
     </div>
-    </div>
-    </div>
-    <footer class="col-md-12" id="footer">Copyright©</footer>
+    <footer class="col-md-12 col-lg-12 col-sm-12" id="footer">Copyright©</footer>
 </body>
 
 </html>

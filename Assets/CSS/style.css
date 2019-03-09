@@ -1,18 +1,41 @@
 body {
-    background-image: url("../Images/spiration-dark.png");
+  background-image: url("../Images/spiration-dark.png");
 }
-
-header {
+.bg-light {
+  background-color: rgb(0, 115, 223) !important;
+}
+#main-navbar {
+  background: rgb(0, 115, 223);
+  border-color: rgb(0, 115, 223);
+  padding: 10px;
+}
+#navbarNav {
+  background: rgb(0, 115, 223);
+  border-color: rgb(0, 115, 223);
+}
+#Navbar-toggle {
+  background: rgb(0, 115, 223);
+}
+.nav-link {
+  background: rgb(0, 115, 223);
+  color: white !important;
+}
+.navbar-brand {
+  background: rgb(0, 115, 223);
+  color: white !important;
+}
+#header {
     background: white;
-    width: 960px;
-    padding: 20px;
     border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 h2 {
     color: white;
     background: blue;
     display: inline;
-    padding: 5px;
     border-radius: 5px;
     animation-name: colorful;
     animation-duration: 2s;
@@ -34,10 +57,12 @@ h2 {
   }
 .container {
     background: white;
-    width: 960px;
-    padding: 20px;
     border-radius: 5px;
     margin-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 #body-image {
     border-radius: 5px;
@@ -72,10 +97,11 @@ h2 {
     text-align: center;
     background-color: #0B1544;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
     height: 30px;
     margin-top: -10px;
     border-top: 8px solid #122775;
-    width: 960px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
