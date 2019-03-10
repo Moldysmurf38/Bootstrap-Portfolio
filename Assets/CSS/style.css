@@ -20,6 +20,18 @@ body {
   background: rgb(0, 115, 223);
   color: white !important;
 }
+.nav-link:hover {
+  color: #122775 !important;
+  animation-name: button-background;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+/* Animation for button hover */
+@keyframes button-background {
+  100% {
+    background-color: #E7E4EF;
+  }
+}
 .navbar-brand {
   background: rgb(0, 115, 223);
   color: white !important;
