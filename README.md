@@ -1,25 +1,25 @@
-#**Bootstrap-Portfolio
+# **Bootstrap-Portfolio**
 
-###**Project Description:
+### **Project Description:**
 
 A website porfolio to showcase any projects I have created so far.
 
-###**Getting Started:
+### **Getting Started:**
 
 Check out my Gitpages deployed version here: https://moldysmurf38.github.io/Bootstrap-Portfolio/
 
-###**Prerequisites:
+### **Prerequisites:**
 
 None.
 
-###**Installing:
+### **Installing:**
 
 None.
 
-###**Built With:
+### **Built With:**
 
 Boostrap CSS Framework
 
-###**Author(s):
+### **Author(s):**
 
 David Wilson
