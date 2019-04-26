@@ -1,25 +1,25 @@
-**<h1>Bootstrap-Portfolio<h1>**
+#**Bootstrap-Portfolio
 
-**<h3>Project Description:<h3>**
+###**Project Description:
 
 A website porfolio to showcase any projects I have created so far.
 
-**<h3>Getting Started:<h3>**
+###**Getting Started:
 
 Check out my Gitpages deployed version here: https://moldysmurf38.github.io/Bootstrap-Portfolio/
 
-**<h3>Prerequisites:<h3>**
+###**Prerequisites:
 
 None.
 
-**<h3>Installing:<h3>**
+###**Installing:
 
 None.
 
-**<h3>Built With:<h3>**
+###**Built With:
 
 Boostrap CSS Framework
 
-**<h3>Author(s):<h3>**
+###**Author(s):
 
 David Wilson
