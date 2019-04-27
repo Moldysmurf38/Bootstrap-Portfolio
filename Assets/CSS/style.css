@@ -43,14 +43,14 @@ body {
   margin-left: 20px;
 }
 h2 {
-    color: white;
-    background: blue;
-    border-radius: 5px;
-    animation-name: colorful;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    display: inline;
-    padding: 5px;
+  color: white;
+  background: blue;
+  border-radius: 5px;
+  animation-name: colorful;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  display: inline;
+  padding: 5px;
 }
 
 h3 {
@@ -65,46 +65,47 @@ h3 {
   margin-bottom: 5px;
 }
 @keyframes colorful {
-    0% {
-      background-color: #122775;
-    }
-    25% {
-      background-color: #112057;
-    }
-    50%{
-      background-color: #0B1544;
-    }
-    100% {
-      background-color: black;
-    }
+  0% {
+    background-color: #122775;
+  }
+  25% {
+    background-color: #112057;
+  }
+  50%{
+    background-color: #0B1544;
+  }
+  100% {
+    background-color: black;
+  }
   }
 .container {
-    background: white;
-    margin-top:-25px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding: 10px;
+  background: white;
+  margin-top:-25px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding: 10px;
 }
 #body-image {
-    border-radius: 5px;
-    outline: 5px solid blue;
+  border-radius: 5px;
+  outline: 5px solid blue;
 }
-.form-label {
-    background: #0B1544;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+.email-section {
+  margin-top: 20px;
+  margin-bottom: 20px; 
 }
-#form-submit {
-    background: #112057;
+.contact-label {
+  background: #0B1544;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline;
 }
-#form-submit:hover {
-    background: white;
-    color: #122775;
+.contact-info {
+  margin-top: 10px;
+  font-size: 20px;
+
 }
 .other-profiles {
   color: white;
@@ -122,16 +123,16 @@ h3 {
   font-size: 20px;
 }
 .portfolio-name {
-    color: white;
-    background: #122775;
-    display: inline;
-    padding: 3px;
-    border-radius: 5px;
-    font-size: 20px;
-  }
-  .portfolio-text {
-    margin-left: 25%;
-  }
+  color: white;
+  background: #122775;
+  display: inline;
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.portfolio-text {
+  margin-left: 25%;
+}
 .img-fluid {
   margin-top: 5px;
   margin-bottom: 10px;
@@ -145,12 +146,12 @@ h3 {
   margin-left: 40%;
 }
 #footer {
-    flex-shrink: 0;
-    color: #E7E4EF;
-    text-align: center;
-    background-color: #0B1544;
-    border-radius: 10px;
-    height: 35px;
-    margin-top: -10px;
-    border-top: 8px solid #122775;
-  }
+  flex-shrink: 0;
+  color: #E7E4EF;
+  text-align: center;
+  background-color: #0B1544;
+  border-radius: 10px;
+  height: 35px;
+  margin-top: -10px;
+  border-top: 8px solid #122775;
+}
