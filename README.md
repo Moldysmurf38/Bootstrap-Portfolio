@@ -18,8 +18,9 @@ If you wish to view locally, then clone the project folder to your computer. Whi
 
 ### **Built With:**
 
-Bootstrap: https://getbootstrap.com/
-Background Image: https://unsplash.com/@joelfilip
+Bootstrap: https://getbootstrap.com/ <br/>
+Background Image: https://unsplash.com/@joelfilip <br/>
+Google Fonts: https://fonts.google.com/
 
 ### **Author(s):**
 
