@@ -9,8 +9,7 @@ body {
 }
 .container {
   color: rgb(255, 255, 255);
-  background: rgb(0, 0, 0, .8);
-  margin-top:-2.3%;
+  background: rgb(0, 0, 0, .9);
   border-radius: 5px;
   margin-bottom: .3%;
   padding: 10px;
@@ -53,7 +52,6 @@ body {
 .header {
   margin-top: 2%;
 }
-
 .title {
   color: rgb(255, 255, 255);
   background: rgb(0, 0, 255);
@@ -61,17 +59,15 @@ body {
   display: inline;
   padding: 5px;
 }
-
 #body-image {
   border-radius: 5px;
   outline: 5px solid blue;
 }
 .email-section {
-  margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-top: 2%;
 }
 .contact-label {
-  background: #0B1544;
+  background: rgb(0, 13, 71);
   color: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 5px;
@@ -80,18 +76,6 @@ body {
 .contact-info {
   margin-top: 10px;
   font-size: 20px;
-
-}
-.other-profiles {
-  color: rgb(255, 255, 255);
-  background: blue;
-  padding: 5px;
-  border-radius: 5px;
-  display: inline;
-  font-size: 20px;
-}
-.contact-img:hover {
-  opacity: .5;
 }
 .profiles-text {
   color: rgb(255, 255, 255);
@@ -102,7 +86,7 @@ body {
 }
 .portfolio-name {
   color: rgb(255, 255, 255);
-  background: #122775;
+  background: rgb(0, 13, 71);
   display: inline;
   padding: 3px;
   border-radius: 5px;
@@ -119,19 +103,11 @@ body {
 }
 
 .img-fluid {
-  margin-top: 5px;
-  margin-bottom: 10px;
+  margin-top: 1%;
+  margin-bottom: 2%;
 }
 .image-highlight:hover {
   opacity: .5;
-}
-.center-block {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-#sound-bars {
-  margin-left: 40%;
 }
 #footer {
   flex-shrink: 0;

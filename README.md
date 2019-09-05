@@ -14,11 +14,12 @@ None.
 
 ### **Installing:**
 
-None.
+If you wish to view locally, then clone the project folder to your computer. While in the main directory of the project folder, open the index.html file in your browser.
 
 ### **Built With:**
 
-Bootstrap CSS Framework
+Bootstrap: https://getbootstrap.com/
+Background Image: https://unsplash.com/@joelfilip
 
 ### **Author(s):**
 
