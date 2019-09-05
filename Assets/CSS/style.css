@@ -1,7 +1,20 @@
 body {
-  background-image: url("../Images/spiration-dark.png");
+  background-image: url("../Images/blue_background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   margin-left: 10%;
   margin-right: 10%;
+}
+.container {
+  color: white;
+  background: rgb(0, 0, 0, .8);
+  margin-top:-2.3%;
+  border-radius: 5px;
+  margin-bottom: .3%;
+  padding: 10px;
+  font-family: 'Righteous', cursive;
 }
 .bg-light {
   background-color: rgb(0, 115, 223) !important;
@@ -38,16 +51,12 @@ body {
   color: white !important;
 }
 .header {
-  margin-top: 10px;
-  margin-left: 20px;
+  margin-top: 2%;
 }
 h2 {
   color: white;
   background: blue;
   border-radius: 5px;
-  animation-name: colorful;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
   display: inline;
   padding: 5px;
 }
@@ -63,29 +72,7 @@ h3 {
   margin-top: 10px;
   margin-bottom: 5px;
 }
-@keyframes colorful {
-  0% {
-    background-color: #122775;
-  }
-  25% {
-    background-color: #112057;
-  }
-  50%{
-    background-color: #0B1544;
-  }
-  100% {
-    background-color: black;
-  }
-  }
-.container {
-  background: white;
-  margin-top:-25px;
-  border-radius: 5px;
-  margin-bottom: 5px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding: 10px;
-}
+
 #body-image {
   border-radius: 5px;
   outline: 5px solid blue;
