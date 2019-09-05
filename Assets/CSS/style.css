@@ -82,15 +82,6 @@ body {
   font-size: 20px;
 
 }
-#resume-link {
-  color: blue;
-}
-#resume-link:hover {
-  color: rgb(0, 132, 255);
-}
-#resume-link:visited {
-  color: rgba(209, 0, 115, 0.486);
-}
 .other-profiles {
   color: rgb(255, 255, 255);
   background: blue;
@@ -116,17 +107,15 @@ body {
   padding: 3px;
   border-radius: 5px;
   font-size: 20px;
-  margin-left: 20%;
 }
 .content-link {
-  color: blue;
-  margin-left: 20%;
+  color: rgb(0, 115, 223);
 }
 .content-link:hover {
-  color: rgb(0, 132, 255);
+  color: rgb(255, 255, 255);
 }
 .content-link:visited {
-  color: rgba(209, 0, 115, 0.486);
+  color: rgba(0, 0, 255);
 }
 
 .img-fluid {
